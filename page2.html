@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Perkenalan Anggota</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      color: white;
+      text-align: center;
+      margin: 0;
+      padding: 0;
+      background-image: url('/1f1b8d1478b8bf5f98fe71e7837c71df.jpg');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      min-height: 100vh;
+      animation: fadeIn 1.5s ease-in-out;
+    }
+
+    header {
+      background-color: rgba(0, 0, 0, 0.6);
+      padding: 20px 0;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+      animation: fadeInDown 1s ease-in-out;
+    }
+
+    h1 {
+      font-size: 36px;
+      color: #f9c74f;
+      margin: 0;
+      text-shadow: 0 0 10px #f9c74f;
+    }
+
+    .subjudul {
+      color: #00d4ff;
+      margin-top: 10px;
+      margin-bottom: 10px;
+      font-size: 22px;
+    }
+
+    .logo-kelompok {
+      width: 150px;
+      height: auto;
+      object-fit: cover;
+      border-radius: 10%;
+      border: 3px solid #f9c74f;
+      margin-bottom: 10px;
+    }
+
+    .anggota {
+      background-color: rgba(0, 0, 0, 0.5);
+      width: 90%;
+      margin: 40px auto;
+      padding: 20px;
+      border-radius: 20px;
+      box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
+      animation: fadeInUp 1.5s ease-in-out;
+    }
+
+    .anggota-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+    }
+
+    .anggota-item {
+      background-color: rgba(255, 255, 255, 0.05);
+      border-radius: 15px;
+      padding: 10px;
+      width: 150px;
+      text-align: center;
+      transition: 0.3s;
+    }
+
+    .anggota-item:hover {
+      background-color: rgba(255, 255, 255, 0.1);
+      transform: scale(1.05);
+    }
+
+    .anggota-item img {
+      width: 100px;
+      height: 100px;
+      object-fit: cover;
+      border-radius: 50%;
+      border: 3px solid #f9c74f;
+      margin-bottom: 10px;
+    }
+
+    .anggota-item .nama {
+      font-size: 16px;
+      color: #a0c4ff;
+      margin-top: 5px;
+      font-weight: bold;
+    }
+
+    .btn {
+      display: inline-block;
+      margin-top: 30px;
+      padding: 10px 25px;
+      background-color: #f9c74f;
+      color: black;
+      text-decoration: none;
+      border-radius: 25px;
+      font-weight: bold;
+      transition: all 0.3s ease;
+    }
+
+    .btn:hover {
+      background-color: #ffd166;
+      box-shadow: 0 0 15px #f9c74f;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+
+    @keyframes fadeInDown {
+      from { opacity: 0; transform: translateY(-30px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    @keyframes fadeInUp {
+      from { opacity: 0; transform: translateY(30px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Perkenalan Anggota</h1>
+    <h2 class="subjudul">Kelompok 5 VII_1</h2>
+    <img src="/foto profil/Tak berjudul112_20250421202254.png" alt="Logo Kelompok" class="logo-kelompok">
+  </header>
+
+  <section class="anggota">
+    <div class="anggota-container">
+      <div class="anggota-item">
+        <img src="/7d92690a18a983262bb3ef18d1b8d3aa.jpg" alt="Ahmad Alamsyah">
+        <div class="nama">Ahmad Alamsyah</div>
+      </div>
+      <div class="anggota-item">
+        <img src="/7d92690a18a983262bb3ef18d1b8d3aa.jpg" alt="Fajar Riski">
+        <div class="nama">Fajar Riski Firmansyah</div>
+      </div>
+      <div class="anggota-item">
+        <img src="/7d92690a18a983262bb3ef18d1b8d3aa.jpg" alt="Alfiansyah">
+        <div class="nama">M. Alfiansyah</div>
+      </div>
+      <div class="anggota-item">
+        <img src="/7d92690a18a983262bb3ef18d1b8d3aa.jpg" alt="Salila Qirani">
+        <div class="nama">Salila Qirani</div>
+      </div>
+      <div class="anggota-item">
+        <img src="/7d92690a18a983262bb3ef18d1b8d3aa.jpg" alt="Vikri Alman Pratama">
+        <div class="nama">Vikri Alman</div>
+      </div>
+    </div>
+    <a href="page3.html" class="btn">Lanjut</a>
+  </section>
+</body>
+</html>
